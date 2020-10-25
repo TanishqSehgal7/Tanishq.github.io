@@ -880,7 +880,7 @@ about
 */
 
 #about {
-  padding: 120px 0px;
+  padding: 100px 0px;
   border-bottom: 1px solid #eee;
 }
 
@@ -1076,8 +1076,8 @@ services
 .owl-carousel button.owl-dot span {
   border-radius: 50%;
   background-color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   display: inline-block;
   margin: 0px 10px;
 }
@@ -1226,7 +1226,7 @@ contact
 #contact-us .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
-  overflow-x: hidden;
+  align-self: center;
 }
 
 #contact-us .col-lg-6 {
@@ -1244,8 +1244,8 @@ contact
 
 .contact-text {
   font-weight: 400;
-  font-size: 14px;
-  color: #6f8ba4;
+  font-size: 18px;
+  color: #d1e9ff;
   letter-spacing: 0.6px;
   line-height: 26px;
 }
@@ -1310,7 +1310,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #777;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   border: none;
   width: 100%;
@@ -1333,20 +1333,21 @@ contact
 
 .contact-form {
   text-align: center;
+  align-self: center;
 }
 
 .contact-form ::-webkit-input-placeholder {
   /* Edge */
-  color: #fff;
+  color:rgb(107, 105, 105);
 }
 
 .contact-form :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #fff;
+  color:rgb(107, 105, 105);
 }
 
 .contact-form ::placeholder {
-  color: #fff;
+  color: rgb(107, 105, 105);
 }
 
 /* 
